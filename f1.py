@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/')
 def add_numbers():
     num1 = 045
-    num2 = 540
+    num2 = 5400
     result = num1 + num2
     return f"The sum of {num1} and {num2} is {result}."
 
